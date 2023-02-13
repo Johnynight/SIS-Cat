@@ -7,7 +7,7 @@ import fake_user_agent
 agent = fake_user_agent.user_agent()
 s = Session()
 data = []
-print('123213')
+print('Comments')
 def regist():
     cookies = {
         'x-ms-cpim-dc': 'US-ALL',
@@ -48,6 +48,8 @@ def regist():
         data=data,
     )
     print(response.json())
+
+
 def get_content():
     global response
     with open('numbers.txt','r', encoding='utf-8') as f:
