@@ -6,3 +6,4 @@ with open('2341645.json','r', encoding='utf-8') as file:
     facets = lol['facets']
     dicscriptions = facets['productFamilyHierarchy']
 print(facets)
+print('Hello World')
